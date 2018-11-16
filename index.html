@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WCG -- WebRTC Tutorial For Beginners</title>
+    </head>
+    <body>
+        <video id="remoteview" autoplay></video>
+        <video id="selfview" autoplay></video>
+        <button type="button" id="btnShowCamera" >Show Webcam</button>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+          var socket = io();
+        </script>
+        <script src="/js/webrtc.demo.js"></script>
+    </body>
+</html>
